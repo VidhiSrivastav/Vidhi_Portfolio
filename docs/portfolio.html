@@ -1,0 +1,371 @@
+<!doctype html>
+<!-- This entire layout structure is taken from CS50s finance implementation https://finance.cs50.net/login -->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89966424-1"></script>
+    <!-- This is taken from Bootstrap https://getbootstrap.com/docs/4.4/getting-started/introduction/-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- own additional style sheet -->
+    <link href="./static/style.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168103075-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-168103075-1', {
+            'anonymize_ip': true
+        });
+    </script>
+    <!-- Disallow crawlers to index this website -->
+    <meta name="robots" content="noindex">
+    <title>Vidhi Srivastav</title>
+    <link rel="icon" href="/docs/img/home.png">
+    <!-- mobile first bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="upper-section-portfolio">
+        <nav class="navbar navbar-expand-md navbar-light portfolio-navbar-custom sticky-top">
+            <div class="container">
+                <a class="navbar-brand" id="name-color" href="/docs">Vidhi Srivastav</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link" id="navbar-color" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navbar-color" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navbar-color" href="about.html">About me</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto mt-2">
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" id="navbar-color" href="https://github.com/VidhiSrivastav">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" id="navbar-color" href="https://www.kaggle.com/vidhisrivastava">Kaggle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" id="navbar-color" href="https://www.linkedin.com/in/vidhisrivastava77/">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" id="navbar-color" href="https://public.tableau.com/app/profile/vidhi5336#!/">Tableau</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="title-color" id="portfolio-title">
+        <div class="container title-container">
+            <div class="row title-text">
+                <div class="col-12 col-sm-11 col-md-9 col-lg-8 additional-margin">
+                    <div class="title-description">
+                        <p>Supervised machine learning, deep learning, times series analysis, NLP or web development - my portfolio of projects consists of different topics and I continuously expand it. As part of my Master thesis I used the Longformer NLP
+                            model to analyze the CSR-related professional experience of thousands of company directors. The rest of my projects are presented below with links to the code, blog posts and deployed projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row title-text">
+                <div class="col-auto additional-margin">
+                    <p>PROJECT PORTFOLIO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-content">
+        <div class="container">
+            <div class="row portfolio-row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="github link">
+                            <h5>Recommendation system</h5>
+                        </a>
+                        <p class="project-des">
+                            Description
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="githublink">
+                            <h5>Recommendation System</h5>
+                        </a>
+                        <p class="project-des">
+                            Description
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="github link">
+                            <h5>Webscrapping Project - Scrapy </h5>
+                        </a>
+                        <p class="project-des">
+                            Description
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="githublink">
+                            <h5>Machine Learning project</h5>
+                        </a>
+                        <p class="project-des">
+                            Description
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="github link">
+                            <h5>Netflix Dashboard - Tableau</h5>
+                        </a>
+                        <p class="project-des">
+                            My Netflix dashboard, created using Tableau, provides an engaging and interactive overview of the Netflix library, including popular shows, ratings, and user reviews. With features such as filters and drill-down options, the dashboard allows for deeper
+                            analysis of user behavior and preferences, highlighting key insights and trends. Through this project, I was able to demonstrate my skills in data visualization, analysis, and communication, all while showcasing my passion
+                            for the media and entertainment industry.
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills: Data Colletion & transformation, Data visualization, Dashboard Design tool</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="./static/img/Netflix Dashboard (1).png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="https://public.tableau.com/views/Netflixdashboard_16785185446450/NetflixDashboard?:language=en-US&:display_count=n&:origin=viz_share_link" class="button btn portfolio-btn rounded-0">Full View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="githublink">
+                            <h5>Amazon Sales Dashboard - Tableau</h5>
+                        </a>
+                        <p class="project-des">
+                            My Amazon sales dashboard, built using Tableau, provides a comprehensive view of key sales metrics, including revenue, units sold, and customer demographics. With features such as drill-down options and trend analysis, the dashboard allows for deeper
+                            insights into sales performance and customer behavior. Through this project, I was able to demonstrate my skills in data analysis, visualization, and dashboard design, as well as my ability to use Tableau's powerful features
+                            to present complex data in an intuitive and engaging way.
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills: Data Colletion & transformation, Data visualization, Dashboard Design tool</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="https://public.tableau.com/views/Amazonsales_16794885380570/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link">
+                                <img class="portfolio-img" src="./static/img/Dashboard 1.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="https://public.tableau.com/views/Amazonsales_16794885380570/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" class="button btn portfolio-btn rounded-0">Full View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="https://www.kaggle.com/code/harshalhonde/hotel-reservation-dataset?kernelSessionId=121693147">
+                            <h5>Hotel Reservation Analysis </h5>
+                        </a>
+                        <p class="project-des">
+                            I completed a project that involved analyzing hotel reservation data to identify customer behavior patterns and demand trends. The project required me to utilize various skills, including data cleaning, statistical analysis, and data visualization, as
+                            well as expertise in business intelligence tools such as Python, Excel, and Power BI. The insights gained from the analysis were used to optimize pricing strategies, enhance customer experience, and increase occupancy rates.
+                            My proficiency in data analysis and interpretation of complex data sets makes this project a valuable demonstration of my skills, which could benefit any organization in the hospitality industry.
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills: Data Cleaning, EDA & Data visualization </span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="https://www.kaggle.com/code/harshalhonde/hotel-reservation-dataset?kernelSessionId=121693147">
+                                <img class="portfolio-img" src="./static/img/hotel_reservation.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="https://www.kaggle.com/code/harshalhonde/hotel-reservation-dataset?kernelSessionId=121693147" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="githublink">
+                            <h5>Covid - 19 classification Project</h5>
+                        </a>
+                        <p class="project-des">
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills: Data preprocessing and cleaning, Data visualization and Model Prediction</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="github link">
+                            <h5>Image classification - NLP</h5>
+                        </a>
+                        <p class="project-des">
+                            Description
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-text text-center">
+                        <a target="_blank" class="title-link" href="githublink">
+                            <h5>Chatbot System</h5>
+                        </a>
+                        <p class="project-des">
+                            Description
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="image">
+                            <a target="_blank" href="">
+                                <img class="portfolio-img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row button-row">
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="githublink" class="button btn portfolio-btn rounded-0">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer class="small text-center text-muted ">
+        <a href="/docs/impressum " class="text-dark ">Legal Notice</a> |
+        <a href="/docs/datenschutz " class="text-dark ">Privacy</a>
+        <p class="copyright">Copyright &copy; 2023 | Vidhi Srivastav</p>
+    </footer>
+</body>
+
+</html>
