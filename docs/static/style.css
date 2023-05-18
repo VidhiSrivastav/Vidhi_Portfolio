@@ -15,19 +15,19 @@
 }
 
 .upper-section-index {
-    background-image: url('/Vidhi-Portfolio/docs/static/img/tree-image.jpg');
+    background-image: url('./img/tree-image.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .upper-section-portfolio {
-    background-image: url('/Vidhi-Portfolio/docs/static/img/stars.jpg');
+    background-image: url('./img/stars.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .upper-section-about {
-    background-image: url('/Vidhi-Portfolio/docs/static/img/mountains.jpg');
+    background-image: url('./img/mountains.jpg');
     background-size: cover;
     background-position: center;
 }
